@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.deskwise.example/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.deskwise.example/word/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.deskwise.example/excel/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.deskwise.example/powerpoint/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.deskwise.example/access/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.deskwise.example/outlook/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.deskwise.example/microsoft-365/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.deskwise.example/templates/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.deskwise.example/tools/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.deskwise.example/guides/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.deskwise.example/tools/excel-percentage-calculator/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.deskwise.example/excel/how-to-calculate-percentage-in-excel/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.deskwise.example/word/how-to-remove-a-blank-page-in-word/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.deskwise.example/about.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.deskwise.example/contact.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.deskwise.example/privacy.html</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://www.deskwise.example/terms.html</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://www.deskwise.example/disclaimer.html</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+</urlset>

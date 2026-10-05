@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /search.html
+Disallow: /articles/example-article-template.html
+
+Sitemap: https://www.deskwise.example/sitemap.xml

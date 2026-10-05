@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search Deskwise</title>
+<meta name="description" content="Search Deskwise's Office tutorials, templates and tools.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://www.deskwise.example/search.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="logo" href="/">Desk<span>wise</span></a>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/">Home</a></li><li><a href="/word/">Word</a></li><li><a href="/excel/">Excel</a></li>
+        <li><a href="/powerpoint/">PowerPoint</a></li><li><a href="/templates/">Templates</a></li>
+        <li><a href="/tools/">Tools</a></li><li><a href="/guides/">Guides</a></li>
+      </ul>
+    </nav>
+    <div class="header-search">
+      <form action="/search.html" method="get" role="search">
+        <label class="visually-hidden" for="hs">Search Deskwise</label>
+        <input type="search" id="hs" name="q" placeholder="Search…">
+        <button type="submit" aria-label="Search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
+      </form>
+    </div>
+    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="mobile-panel">Menu</button>
+  </div>
+  <div class="mobile-panel wrap" id="mobile-panel" data-nav-panel>
+    <ul>
+      <li><a href="/word/">Word</a></li><li><a href="/excel/">Excel</a></li><li><a href="/powerpoint/">PowerPoint</a></li>
+      <li><a href="/access/">Access</a></li><li><a href="/outlook/">Outlook</a></li><li><a href="/microsoft-365/">Microsoft 365</a></li>
+      <li><a href="/templates/">Templates</a></li><li><a href="/tools/">Tools</a></li><li><a href="/guides/">Guides</a></li>
+    </ul>
+    <form action="/search.html" method="get" role="search">
+      <label class="visually-hidden" for="hsm">Search</label>
+      <input type="search" id="hsm" name="q" placeholder="Search…">
+      <button type="submit">Go</button>
+    </form>
+  </div>
+</header>
+<nav class="breadcrumb-strip" aria-label="Breadcrumb">
+  <div class="wrap"><ol class="breadcrumbs"><li><a href="/">Home</a></li><li aria-current="page">Search</li></ol></div>
+</nav>
+<main id="main">
+  <div class="wrap page-head">
+    <h1>Search</h1>
+    <p class="lede">Search across every Deskwise tutorial, template and tool.</p>
+  </div>
+  <div class="wrap prose">
+    <form action="/search.html" method="get" role="search" style="margin-bottom:2rem;">
+      <div class="hero-search">
+        <label class="visually-hidden" for="search-page-input">Search query</label>
+        <input type="search" id="search-page-input" name="q" placeholder="e.g. remove blank page in Word" autofocus>
+        <button type="submit">Search</button>
+      </div>
+    </form>
+    <div id="search-results" aria-live="polite">
+      <p class="updated-note">This page is a UI prototype: it isn't connected to a search index yet. Wire <code>id="search-page-input"</code> up to a real search backend (e.g. a hosted search service or a static-site search index) before launch, and render matching guides, templates and tools into <code>#search-results</code>.</p>
+    </div>
+    <h2>Popular searches</h2>
+    <ul class="chip-list">
+      <li><a href="/excel/how-to-calculate-percentage-in-excel/">Calculate percentage in Excel</a></li>
+      <li><a href="/word/how-to-remove-a-blank-page-in-word/">Remove a blank page in Word</a></li>
+      <li><a href="/tools/excel-percentage-calculator/">Excel percentage calculator</a></li>
+      <li><a href="/templates/">Excel expense tracker template</a></li>
+    </ul>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand"><p class="logo" style="color:#fff;">Desk<span style="color:#8fbfae;">wise</span></p><p>Plain-English Microsoft Office tutorials, templates and tools.</p></div>
+    <div class="footer-col"><h3>Applications</h3><ul><li><a href="/word/">Word</a></li><li><a href="/excel/">Excel</a></li><li><a href="/powerpoint/">PowerPoint</a></li><li><a href="/access/">Access</a></li><li><a href="/outlook/">Outlook</a></li><li><a href="/microsoft-365/">Microsoft 365</a></li></ul></div>
+    <div class="footer-col"><h3>Resources</h3><ul><li><a href="/guides/">All guides</a></li><li><a href="/templates/">Templates</a></li><li><a href="/tools/">Tools</a></li><li><a href="/search.html">Search</a></li></ul></div>
+    <div class="footer-col"><h3>Site</h3><ul><li><a href="/about.html">About</a></li><li><a href="/contact.html">Contact</a></li><li><a href="/privacy.html">Privacy policy</a></li><li><a href="/terms.html">Terms of use</a></li><li><a href="/disclaimer.html">Disclaimer</a></li></ul></div>
+  </div>
+  <div class="wrap"><p class="footer-disclaimer">Deskwise is an independent educational resource and is not affiliated with, sponsored by, or endorsed by Microsoft.</p></div>
+  <div class="wrap footer-bottom"><span>© 2026 Deskwise</span><span>Not affiliated with Microsoft</span></div>
+</footer>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
